@@ -19031,9 +19031,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="237.744" y="7.366" size="2.54" layer="94" font="vector">v10</text>
 <text x="149.86" y="114.3" size="1.778" layer="97" font="vector" align="center">7-bit unshifted I2C address: 0x10</text>
-<text x="87.122" y="178.562" size="2.54" layer="94" font="vector" ratio="15" rot="MR180" align="center">Ublox SAM-M8Q</text>
-<text x="16.002" y="178.562" size="2.54" layer="94" font="vector" ratio="15" rot="MR180" align="center">RTC Backup</text>
-<text x="26.162" y="89.662" size="2.54" layer="94" font="vector" ratio="15" rot="MR180" align="center">Pulse Per Second LED</text>
+<text x="87.122" y="178.562" size="2.54" layer="94" font="vector" ratio="12" rot="MR180" align="center">Ublox SAM-M8Q</text>
+<text x="16.002" y="178.562" size="2.54" layer="94" font="vector" ratio="12" rot="MR180" align="center">RTC Backup</text>
+<text x="26.162" y="92.202" size="2.54" layer="94" font="vector" ratio="12" rot="MR180" align="center">Pulse Per Second LED</text>
 <wire x1="0" y1="99.06" x2="248.92" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="63.5" y1="185.42" x2="63.5" y2="0" width="0.1524" layer="97" style="shortdash"/>
 <text x="193.04" y="165.1" size="1.778" layer="97" font="vector">Cut JP5 to remove 
