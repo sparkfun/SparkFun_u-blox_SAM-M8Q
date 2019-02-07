@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18760,7 +18760,6 @@ Physcial Characteristics
 <wire x1="-7.75" y1="7.75" x2="7.75" y2="7.75" width="0.127" layer="51"/>
 <text x="-7.75" y="8.25" size="0.508" layer="25">&gt;Name</text>
 <text x="-7.75" y="-8.75" size="0.508" layer="27">&gt;Value</text>
-<circle x="-8.35" y="7.75" radius="0.14141875" width="0" layer="21"/>
 <wire x1="6.2" y1="8" x2="8" y2="8" width="0.1778" layer="21"/>
 <wire x1="8" y1="8" x2="8" y2="6.2" width="0.1778" layer="21"/>
 <wire x1="8" y1="-6.2" x2="8" y2="-8" width="0.1778" layer="21"/>
@@ -18811,6 +18810,7 @@ Physcial Characteristics
 <rectangle x1="-4.55" y1="5.85" x2="-3.05" y2="7.65" layer="51"/>
 <rectangle x1="-5.08" y1="-5.08" x2="5.08" y2="5.08" layer="39"/>
 <rectangle x1="-5.08" y1="-5.08" x2="5.08" y2="5.08" layer="40"/>
+<circle x="-8.89" y="7.62" radius="0.40160625" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -18836,7 +18836,7 @@ Physcial Characteristics
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="UBLOX_SAM-M8Q" prefix="U">
+<deviceset name="UBLOX_SAM_M8Q-0-10" prefix="U">
 <description>&lt;h3&gt;u-blox SAM-M8Q&lt;/h3&gt;
 &lt;p&gt;The u-blox concurrent SAM-M8Q GNSS patch antenna module benefits from the exceptional performance of the
 u-blox M8 multi-GNSS engine. The SAM-M8Q module offers high sensitivity and minimal acquisition times in an
@@ -18868,7 +18868,7 @@ interface settings to easily fit to customer applications.&lt;/p&gt;</descriptio
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-14274" constant="no"/>
+<attribute name="PROD_ID" value="IC-14070" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -19007,7 +19007,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R11" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="JP7" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="JP8" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="U2" library="SparkFun-GPS" deviceset="UBLOX_SAM-M8Q" device=""/>
+<part name="U2" library="SparkFun-GPS" deviceset="UBLOX_SAM_M8Q-0-10" device=""/>
 <part name="R2" library="SparkFun-Resistors" deviceset="22OHM" device="-0603-1/10W-1%" value="22"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="22OHM" device="-0603-1/10W-1%" value="22"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -19046,8 +19046,11 @@ disable PPS LED</text>
 <text x="40.64" y="53.34" size="1.778" layer="97" font="vector">Cut JP12 to 
 disable Power 
 LED</text>
-<text x="142.24" y="165.1" size="1.778" layer="97" font="vector" ratio="12">VCC Range</text>
-<text x="2.54" y="129.54" size="1.778" layer="97" font="vector" ratio="12">Battery</text>
+<text x="142.24" y="165.1" size="1.778" layer="97" font="vector" ratio="12">VCC Range: 2.7-3.6V</text>
+<text x="10.16" y="111.76" size="1.27" layer="97" font="vector">Battery Initial Charge: 2.3-2.8V
+Battery Charge Rate: 1mA MAX
+Voff: 2.0V
+72 hours charge time from 2.0-3.1V</text>
 </plain>
 <instances>
 <instance part="JP3" gate="G$1" x="246.38" y="30.48" smashed="yes"/>
@@ -19097,18 +19100,18 @@ LED</text>
 <attribute name="NAME" x="165.862" y="135.128" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="175.006" y="135.128" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="C3" gate="G$1" x="38.1" y="121.92" smashed="yes" rot="MR0">
-<attribute name="NAME" x="36.576" y="124.841" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="36.576" y="119.761" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="C3" gate="G$1" x="35.56" y="137.16" smashed="yes" rot="MR0">
+<attribute name="NAME" x="34.036" y="140.081" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="34.036" y="135.001" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
-<instance part="B1" gate="G$1" x="22.86" y="121.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="25.4" y="124.206" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
+<instance part="B1" gate="G$1" x="20.32" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="22.86" y="139.446" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="GND5" gate="1" x="22.86" y="111.76" smashed="yes">
-<attribute name="VALUE" x="22.86" y="111.506" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND5" gate="1" x="20.32" y="127" smashed="yes">
+<attribute name="VALUE" x="20.32" y="126.746" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND10" gate="1" x="38.1" y="111.76" smashed="yes">
-<attribute name="VALUE" x="38.1" y="111.506" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND10" gate="1" x="35.56" y="127" smashed="yes">
+<attribute name="VALUE" x="35.56" y="126.746" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="114.3" y="149.86" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="114.3" y="152.654" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
@@ -19138,16 +19141,16 @@ LED</text>
 <attribute name="NAME" x="12.7" y="66.04" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="12.7" y="60.96" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="D2" gate="G$1" x="22.86" y="147.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="25.4" y="149.352" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="25.4" y="147.828" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="D2" gate="G$1" x="20.32" y="162.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="22.86" y="164.592" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="22.86" y="163.068" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="SUPPLY5" gate="G$1" x="22.86" y="152.4" smashed="yes">
-<attribute name="VALUE" x="22.86" y="155.194" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY5" gate="G$1" x="20.32" y="167.64" smashed="yes">
+<attribute name="VALUE" x="20.32" y="170.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="22.86" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="21.336" y="137.16" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="24.384" y="137.16" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R5" gate="G$1" x="20.32" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.796" y="152.4" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="21.844" y="152.4" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="R11" gate="G$1" x="7.62" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.922" y="55.372" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -19235,7 +19238,7 @@ LED</text>
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
-<wire x1="22.86" y1="152.4" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="167.64" x2="20.32" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="U1" pin="VCC_IO"/>
@@ -19291,12 +19294,12 @@ LED</text>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="119.38" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="134.62" x2="35.56" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="-"/>
-<wire x1="22.86" y1="116.84" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="132.08" x2="20.32" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -19442,16 +19445,16 @@ LED</text>
 <net name="BACKUP" class="0">
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="129.54" x2="38.1" y2="127" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="144.78" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="B1" gate="G$1" pin="+"/>
-<wire x1="38.1" y1="129.54" x2="22.86" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="129.54" x2="22.86" y2="127" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="129.54" x2="40.64" y2="129.54" width="0.1524" layer="91"/>
-<junction x="38.1" y="129.54"/>
-<label x="40.64" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="35.56" y1="144.78" x2="20.32" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="144.78" x2="20.32" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="144.78" x2="38.1" y2="144.78" width="0.1524" layer="91"/>
+<junction x="35.56" y="144.78"/>
+<label x="38.1" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="132.08" x2="22.86" y2="129.54" width="0.1524" layer="91"/>
-<junction x="22.86" y="129.54"/>
+<wire x1="20.32" y1="147.32" x2="20.32" y2="144.78" width="0.1524" layer="91"/>
+<junction x="20.32" y="144.78"/>
 </segment>
 <segment>
 <wire x1="137.16" y1="147.32" x2="134.62" y2="147.32" width="0.1524" layer="91"/>
@@ -19494,7 +19497,7 @@ LED</text>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="144.78" x2="22.86" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="160.02" x2="20.32" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA_LV" class="0">
