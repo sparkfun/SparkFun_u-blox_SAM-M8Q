@@ -19408,7 +19408,7 @@ Voff: 2.0V
 <segment>
 <pinref part="J3" gate="G$1" pin="5"/>
 <wire x1="121.92" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
-<label x="116.84" y="66.04" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+<label x="116.84" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PPS" class="0">
@@ -19523,7 +19523,7 @@ Voff: 2.0V
 <segment>
 <pinref part="J3" gate="G$1" pin="6"/>
 <wire x1="121.92" y1="63.5" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
-<label x="116.84" y="63.5" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+<label x="116.84" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RXI" class="0">

@@ -164,7 +164,7 @@
 <plain>
 <wire x1="0" y1="0" x2="0" y2="40.64" width="0.2032" layer="20"/>
 <wire x1="0" y1="40.64" x2="40.64" y2="40.64" width="0.2032" layer="20"/>
-<wire x1="40.64" y1="40.64" x2="40.64" y2="0" width="0.1524" layer="20"/>
+<wire x1="40.64" y1="40.64" x2="40.64" y2="0" width="0.2032" layer="20"/>
 <wire x1="40.64" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
 <text x="34.417" y="1.27" size="1.27" layer="16" font="vector" ratio="15" rot="MR180" align="center">v10</text>
 <text x="-2.54" y="-8.89" size="1.778" layer="47">Measurements in inches</text>
@@ -5531,13 +5531,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="U1" pad="15"/>
 <contactref element="J4" pad="1"/>
 <contactref element="J4" pad="2"/>
-<polygon width="0.1524" layer="1" isolate="0.2032">
+<polygon width="0.254" layer="1" isolate="0.2032">
 <vertex x="0" y="40.64"/>
 <vertex x="40.64" y="40.64"/>
 <vertex x="40.64" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<polygon width="0.1524" layer="16" isolate="0.2032">
+<polygon width="0.254" layer="16" isolate="0.2032">
 <vertex x="0" y="40.64"/>
 <vertex x="40.64" y="40.64"/>
 <vertex x="40.64" y="0"/>
@@ -5617,6 +5617,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="22.098" y="7.874" extent="1-16" drill="0.381"/>
 <via x="19.812" y="7.874" extent="1-16" drill="0.381"/>
 <via x="7.874" y="23.114" extent="1-16" drill="0.381"/>
+<wire x1="37.35" y1="26.543" x2="33.02" y2="24.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL">
 <contactref element="J1" pad="4"/>
