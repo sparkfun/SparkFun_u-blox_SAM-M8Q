@@ -1,4 +1,4 @@
-SparkFun u-Blox SAM-M8
+SparkFun u-Blox SAM-M8Q
 ========================================
 
 [![SparkFun u-Blox](https://cdn.sparkfun.com/assets/parts/1/3/6/4/8/15210-SparkFun_GPS_Breakout_-_Chip_Antenna__SAM-M8Q__Qwiic_-01.jpg)](https://www.sparkfun.com/products/15210)
