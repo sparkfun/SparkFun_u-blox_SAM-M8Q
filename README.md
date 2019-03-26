@@ -17,7 +17,7 @@ Repository Contents
 Documentation
 --------------
 * **[Library](https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library)** - Arduino Library used with the SparkFun SAM-M8Q 
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-breakout-zoe-m8q-and-sam-m8q-hookup-guide** - Basic hookup guide for the SparkFun SAM-M8Q.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-breakout-zoe-m8q-and-sam-m8q-hookup-guide)** - Basic hookup guide for the SparkFun SAM-M8Q.
 
 License Information
 -------------------
