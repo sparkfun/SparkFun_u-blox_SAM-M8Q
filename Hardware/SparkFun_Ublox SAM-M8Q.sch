@@ -19030,7 +19030,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="237.744" y="7.366" size="2.54" layer="94" font="vector">v10</text>
-<text x="149.86" y="114.3" size="1.778" layer="97" font="vector" align="center">7-bit unshifted I2C address: 0x10</text>
+<text x="149.86" y="114.3" size="1.778" layer="97" font="vector" align="center">7-bit unshifted I2C address: 0x42</text>
 <text x="87.122" y="178.562" size="2.54" layer="94" font="vector" ratio="12" rot="MR180" align="center">Ublox SAM-M8Q</text>
 <text x="16.002" y="178.562" size="2.54" layer="94" font="vector" ratio="12" rot="MR180" align="center">RTC Backup</text>
 <text x="26.162" y="92.202" size="2.54" layer="94" font="vector" ratio="12" rot="MR180" align="center">Pulse Per Second LED</text>
