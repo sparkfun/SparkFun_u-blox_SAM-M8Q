@@ -3,7 +3,7 @@ SparkFun u-Blox SAM-M8Q
 
 [![SparkFun u-Blox](https://cdn.sparkfun.com/assets/parts/1/3/6/4/8/15210-SparkFun_GPS_Breakout_-_Chip_Antenna__SAM-M8Q__Qwiic_-01.jpg)](https://www.sparkfun.com/products/15210)
 
-[*SparkFun u-Blox SAM-M8 (GPS-15210)*](https://www.sparkfun.com/products/15210)
+[*SparkFun u-Blox SAM-M8Q (GPS-15210)*](https://www.sparkfun.com/products/15210)
 
 The SAM-M8Q is a high quality GPS with equally impressive configurability.  We broke out the basic pins and added all the supporting circuitry to make this module even easier to use.  Additionally we've mounted the M8Q on a large ground plane to maximize reception quality.
 
